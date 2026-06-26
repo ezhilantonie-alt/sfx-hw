@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White base background for contrast -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h108v108H0z" />
+
+    <!-- 1. Anchor Top Ring (Orange) -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M54,12c-4.4,0 -8,3.6 -8,8s3.6,8 8,8s8,-3.6 8,-8s-3.6,-8 -8,-8zM54,24c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4s4,1.8 4,4s-1.8,4 -4,4z" />
+
+    <!-- 2. Anchor Shaft (Orange) -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M51,24h6v56h-6z" />
+
+    <!-- 3. Red Banner "EXCELSIOR" at top of shaft -->
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M34,25h40c2.2,0 4,1.8 4,4l0,0c0,2.2 -1.8,4 -4,4h-40c-2.2,0 -4,-1.8 -4,-4l0,0c0,-2.2 1.8,-4 4,-4z" />
+    
+    <!-- White border detail for Excelsior banner -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M35,27h38" />
+
+    <!-- Stylized "EXCELSIOR" text strokes inside red banner -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M38,28h2 M42,28v2 M46,28h2 M51,28v2 M56,28h2 M61,28v2 M66,28h2 M70,28v2" />
+
+    <!-- 4. Anchor Flukes and Bottom curved frame -->
+    <path
+        android:strokeColor="#E65100"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M24,56c0,18.8 13.4,30 30,30s30,-11.2 30,-30" />
+    
+    <!-- Anchor Fluke arrow tips -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M24,56l-5,-6l2,8zM84,56l5,-6l-2,8z" />
+
+    <!-- 5. Center Split Badge (Shield/Oval) over shaft -->
+    <!-- Yellow Top Half -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M36,52c0,-9.9 8.1,-18 18,-18s18,8.1 18,18H36z" />
+    
+    <!-- Sky Blue Bottom Half -->
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M36,52c0,9.9 8.1,18 18,18s18,-8.1 18,-18H36z" />
+
+    <!-- Water ripples (white lines on sky blue) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M42,56h24M45,60h18M49,64h10" />
+
+    <!-- 6. Small Dark Blue Shield in Yellow half -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M50,42h8v4c0,3 -4,6 -4,6c0,0 -4,-3 -4,-6v-4z" />
+
+    <!-- White Christian Cross in Blue Shield -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,44v6M52,46h4" />
+
+    <!-- 7. Bottom Orange Banner for "TUTICORIN" -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M30,76h48c2.2,0 4,1.8 4,4l0,0c0,2.2 -1.8,4 -4,4h-48c-2.2,0 -4,-1.8 -4,-4l0,0c0,-2.2 1.8,-4 4,-4z" />
+
+    <!-- Stylized "TUTICORIN" text representation strokes -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M36,79.5h2 M41,79.5v1 M46,79.5h2 M51,79.5v1 M56,79.5h2 M61,79.5v1 M66,79.5h2 M71,79.5v1" />
+
+</vector>

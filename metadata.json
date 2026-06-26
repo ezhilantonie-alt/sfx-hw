@@ -1,0 +1,6 @@
+{
+  "name": "SFX Homework",
+  "description": "Homework tracker app for St. Francis Xavier's Higher Secondary School, Thoothukudi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
